@@ -18,9 +18,9 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
-        {/* <Stack.Screen name="Welcome" component={OtpScreen} /> */}
+        <Stack.Screen name="Welcome" component={OtpScreen} />
         {/* <Stack.Screen name="Welcome" component={UploadDocuments} /> */}
-        <Stack.Screen name="Welcome" component={WelcomeScreen} />
+        {/* <Stack.Screen name="Welcome" component={WelcomeScreen} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
